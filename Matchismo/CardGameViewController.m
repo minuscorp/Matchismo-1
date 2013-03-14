@@ -30,7 +30,7 @@
 
 - (void)updateUI
 {
-    UIImage *cardBackImage = [UIImage imageNamed:@"cardback.png"];
+    UIImage *cardBackImage = [UIImage imageNamed:@"back.jpg"];
     
     for (UIButton *cardButton in self.cardButtons) {
         Card *card = [self.game cardAtIndex:[self.cardButtons indexOfObject:cardButton]];

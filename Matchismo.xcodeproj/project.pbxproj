@@ -29,8 +29,10 @@
 		5B24659A16C6BF4F0045E32C /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B24659916C6BF4F0045E32C /* CardMatchingGame.m */; };
 		5B2A8A3016CE7D8400366133 /* SetCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A8A2F16CE7D8300366133 /* SetCard.m */; };
 		5B2A8A3316CE7DC400366133 /* SetCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A8A3216CE7DC400366133 /* SetCardDeck.m */; };
-		5B78485316C92A0B004AEFBF /* cardback.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B78485216C92A0B004AEFBF /* cardback.png */; };
 		5BD5CA4816CD797700152740 /* GameResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5CA4716CD797700152740 /* GameResult.m */; };
+		CFBD604E16F24480007198D8 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFBD604B16F24480007198D8 /* back.jpg */; };
+		CFBD604F16F24480007198D8 /* games_card_spades.png in Resources */ = {isa = PBXBuildFile; fileRef = CFBD604C16F24480007198D8 /* games_card_spades.png */; };
+		CFBD605016F24480007198D8 /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = CFBD604D16F24480007198D8 /* stats.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,9 +73,11 @@
 		5B2A8A2F16CE7D8300366133 /* SetCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCard.m; path = Model/SetCard.m; sourceTree = "<group>"; };
 		5B2A8A3116CE7DC400366133 /* SetCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetCardDeck.h; path = Model/SetCardDeck.h; sourceTree = "<group>"; };
 		5B2A8A3216CE7DC400366133 /* SetCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetCardDeck.m; path = Model/SetCardDeck.m; sourceTree = "<group>"; };
-		5B78485216C92A0B004AEFBF /* cardback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardback.png; sourceTree = "<group>"; };
 		5BD5CA4616CD797700152740 /* GameResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameResult.h; sourceTree = "<group>"; };
 		5BD5CA4716CD797700152740 /* GameResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameResult.m; sourceTree = "<group>"; };
+		CFBD604B16F24480007198D8 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		CFBD604C16F24480007198D8 /* games_card_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = games_card_spades.png; sourceTree = "<group>"; };
+		CFBD604D16F24480007198D8 /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +132,6 @@
 				5B20DFF516B2B110001353A7 /* CardGameViewController.m */,
 				5B0D8E0916CE63A500894169 /* SetGameViewController.h */,
 				5B0D8E0A16CE63A500894169 /* SetGameViewController.m */,
-				5B78485216C92A0B004AEFBF /* cardback.png */,
 				5B1B8ECE16CD74BB00C2BC44 /* GameResultViewController.h */,
 				5B1B8ECF16CD74BB00C2BC44 /* GameResultViewController.m */,
 				5BD5CA4616CD797700152740 /* GameResult.h */,
@@ -142,6 +145,9 @@
 		5B20DFE016B2B110001353A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CFBD604B16F24480007198D8 /* back.jpg */,
+				CFBD604C16F24480007198D8 /* games_card_spades.png */,
+				CFBD604D16F24480007198D8 /* stats.png */,
 				5B20DFE816B2B110001353A7 /* CardGameAppDelegate.h */,
 				5B20DFE916B2B110001353A7 /* CardGameAppDelegate.m */,
 				5B20DFE116B2B110001353A7 /* Matchismo-Info.plist */,
@@ -234,7 +240,9 @@
 				5B20DFF016B2B110001353A7 /* Default-568h@2x.png in Resources */,
 				5B20DFF316B2B110001353A7 /* MainStoryboard.storyboard in Resources */,
 				5B20E01A16B2C8B6001353A7 /* README in Resources */,
-				5B78485316C92A0B004AEFBF /* cardback.png in Resources */,
+				CFBD604E16F24480007198D8 /* back.jpg in Resources */,
+				CFBD604F16F24480007198D8 /* games_card_spades.png in Resources */,
+				CFBD605016F24480007198D8 /* stats.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
